@@ -59,6 +59,8 @@ body{
 
 .container__main{
     background-color: var(--primary-ligth);
+    background: -webkit-linear-gradient(to right, var(--primary-ligth), var(--secondary-ligth));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--primary-ligth), var(--secondary-ligth)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -71,7 +73,8 @@ body{
 
 .card__img img{
     background-color: var(--primary-ligth);
-    border-radius: 30px;
+    border-radius: 20px;
+    box-shadow:  1px 1px 2px 0px black;
     max-width: 100px;
 }
 
