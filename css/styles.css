@@ -27,6 +27,13 @@ body{
     padding: 20px;
 }
 
+.pokedex{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow:  0px 0px 3px 1px black;
+}
+
 .nav{
     background-color: var(--primary);
     border-radius: 10px 10px 0px 0px;
@@ -169,6 +176,7 @@ body{
     }
 
     .container{
+        border-style: outset;
         min-width: 100%;
     }
 
