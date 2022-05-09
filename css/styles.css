@@ -160,7 +160,7 @@ html{
 
 .footer__card{
     display: flex;
-    margin-left: 2.1%;
+    margin-left: 2%;
 }
 
 .footer__card__figure{
@@ -204,7 +204,74 @@ html{
     }
 }
 
-@media only screen and (max-width: 769px) and (min-width: 5px) {
+@media only screen and (max-width: 769px) and (min-width: 767px){
+    .body{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .container{
+        border-style: outset;
+        min-width: auto;
+    }
+
+    .card{
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .card__header{
+        width: 100%;
+    }
+
+    .card__body__image{
+        width: 100%;
+        height: auto;
+    }
+
+    .card__features{
+        /* font-size: 10px; */
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 25px;
+        min-width: 80%;
+        height: 400px;
+    }
+
+    .footer{
+        /* justify-content: space-around; */
+        padding: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .footer__title{
+        margin-left: 12px;
+    }
+
+    .footer__card{
+        margin: 0;
+        margin-left: 0px;
+    }
+
+    .footer__card__figure{
+        /* margin: 5%; */
+        margin: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer__card__image{
+        height: auto;
+        margin-top: 13%;
+        width: 40px;
+    }
+} 
+
+@media only screen and (max-width: 767px) and (min-width: 5px) {
     .body{
         background-repeat: no-repeat;
         background-position: center center;
@@ -238,10 +305,6 @@ html{
         
     }
 
-    .card__header{
-
-    }
-
     .card__header__figure{
         margin: 0%;
     }
@@ -249,11 +312,6 @@ html{
     .card__header__image{
         width: 100%;
         height: auto;
-    }
-
-
-    .card__body{
- 
     }
 
     .card__body__image{
