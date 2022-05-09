@@ -100,7 +100,6 @@ html{
     display: flex;
     justify-content: center;
     margin-top: 15px;
-
 }
 
 .card__body_figure{
@@ -154,7 +153,6 @@ html{
 }
 
 .footer__title{
-    /* margin-left: 10px; */
     align-self: center;
 }
 
@@ -231,7 +229,6 @@ html{
     }
 
     .card__features{
-        /* font-size: 10px; */
         margin: 0;
         margin-left: 10px;
         margin-right: 25px;
@@ -240,7 +237,6 @@ html{
     }
 
     .footer{
-        /* justify-content: space-around; */
         padding: 0%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -256,7 +252,6 @@ html{
     }
 
     .footer__card__figure{
-        /* margin: 5%; */
         margin: 20px;
         margin-left: 25px;
         margin-right: 25px;
@@ -302,7 +297,6 @@ html{
         width: 100%;
         margin: 0%;
         padding: 0%;
-        
     }
 
     .card__header__figure{
